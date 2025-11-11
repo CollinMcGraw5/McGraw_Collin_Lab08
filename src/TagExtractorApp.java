@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
 public class TagExtractorApp {
+    public static void main(String[] args) {
+        javax.swing.SwingUtilities.invokeLater(() -> new TagExtractorGUI());
+    }
 }
